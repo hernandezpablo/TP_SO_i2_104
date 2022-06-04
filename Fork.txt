@@ -3,7 +3,7 @@ Joaquín Lubo Millán
 152.170.74.64
 17:25
 =======
-Nombre y apellido: Ezequiel Yukio Kreczmer Nakasone
+Nombre y apellido: Pablo Hernandez
 IP de la máquina: 186.128.219.154
 Hora: 17:22
 >>>>>>> yukio/main
