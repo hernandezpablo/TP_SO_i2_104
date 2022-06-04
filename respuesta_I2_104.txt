@@ -1,3 +1,12 @@
 Hernández Pablo
 Joaquín Lubo Millán
 Ezequiel Yukio Kreczmer Nakasone
+
+a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+Primero seteamos una branch nueva, la linkeamos con el repositorio original, hicimos un fetch para poder recibir la información actualizada, y luego hicimos un merge
+codigos utilizados: 
+git remote add upstream https://github.com/hernandezpablo/TP_SO_i2_104.git
+git fetch upstream
+git merge upstream/main
+
+b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
