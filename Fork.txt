@@ -1,6 +1,11 @@
 Joaquín Lubo Millán
 152.170.74.64
 17:25
+<<<<<<< HEAD
 Nombre y apellido: Ezequiel Yukio Kreczmer Nakasone
+=======
+=======
+Nombre y apellido: Pablo Hernandez
+>>>>>>> upstream/main
 IP de la máquina: 186.128.219.154
 Hora: 17:22
