@@ -17,3 +17,91 @@ d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quie
 el fork?
 No se pierden, ya que no se sobreescribe, pero puede haber un conflicto al haber un merge. En 
 este caso deberia resolver el conflicto.
+
+e - realizar un listado, paso a paso ,de los comando necesarios para resolver este TP por
+orden de ejecución de los mismos junto con los apellidos y nombre de los alumnos
+
+1 - Pablo Hernández (BETA): 
+  * git init
+  * git add .
+  * git commit 
+  * git push origin main
+
+2 - Ezequiel Yukio Kreczmer Nakasone (GAMMA):
+  * forkea el repo de BETA
+  * git clone en su maquina
+  * modifica el archivo fork agregando sus datos
+  * git add .
+  * git commit 
+  * git push origin main
+
+3 - Joaquín Lubo Millán (ALFA):
+  * forkea el repo de GAMMA
+  * git clone en su maquina
+  * modifica el archivo fork agregando sus datos
+  * git add .
+  * git commit 
+  * git push origin main
+
+4 - Pablo Hernández (BETA):
+  * git clone de su repo
+  * crea archivo "nuevoDato.txt"
+  * git add nuevoDato.txt
+  * git commit 
+  * git push origin main
+
+5 - Ezequiel Yukio Kreczmer Nakasone (GAMMA) y Joaquín Lubo Millán (ALFA):
+  * git remote add pablo <REPO DE PABLO>
+  * git fetch pablo (nombre de la rama)
+  * git merge pablo/main
+  * git add .
+  * git commit
+  * git push origin main
+
+6 - Pablo Hernández (BETA):
+  * crea archivo “respuesta_I2_Equipo104.txt”
+  * git add “respuesta_I2_Equipo104.txt”
+  * git commit 
+  * git push 
+
+  b - Ezequiel Yukio Kreczmer Nakasone (GAMMA)
+    * git fetch pablo (nombre de la rama)
+    * git merge pablo/main
+    * modifica archivo “respuesta_I2_Equipo104.txt”
+    * git add “respuesta_I2_Equipo104.txt”
+    * git commit 
+    * git push 
+
+  c - Pablo Hernández (BETA):
+    * git remote add yukio <REPO DE YUKIO>
+    * git fetch yukio (nombre de la rama)
+    * git merge yukio/main
+    * modifica archivo “respuesta_I2_Equipo104.txt”
+    * git add “respuesta_I2_Equipo104.txt”
+    * git commit 
+    * git push 
+  
+  d - Joaquín Lubo Millán (ALFA):
+    * git fetch pablo (nombre de la rama)
+    * git merge pablo/main
+    * modifica archivo “respuesta_I2_Equipo104.txt”
+    * git add “respuesta_I2_Equipo104.txt”
+    * git commit 
+    * git push 
+
+  e1 - Pablo Hernández (BETA):
+    * git fetch joaquin (nombre de la rama)
+    * git merge joaquin/main
+    * git add .
+    * git commit 
+    * git push 
+  
+  e2 - Ezequiel Yukio Kreczmer Nakasone (GAMMA)
+    * git remote add joaquin <REPO DE joaquin>
+    * git fetch joaquin (nombre de la rama)
+    * git merge joaquin/main
+    * git add .
+    * git commit 
+    * git push 
+    
+* En este punto todos los repos estan actualizados
