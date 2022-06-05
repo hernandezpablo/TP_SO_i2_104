@@ -11,3 +11,9 @@ git merge upstream/main
 
 b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
 Si, puede. Con un merge, habiendo seteado(agregado como remoto) anteriormente la branch de Gamma
+c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
+Si, puede, de la misma manera que el punto b.
+d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
+el fork?
+No se pierden, ya que no se sobreescribe, pero puede haber un conflicto al haber un merge. En 
+este caso deberia resolver el conflicto.
