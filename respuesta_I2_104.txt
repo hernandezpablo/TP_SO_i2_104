@@ -10,3 +10,4 @@ git fetch upstream
 git merge upstream/main
 
 b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+Si, puede. Con un merge, habiendo seteado(agregado como remoto) anteriormente la branch de Gamma
